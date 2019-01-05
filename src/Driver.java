@@ -33,6 +33,8 @@ public class Driver {
             for (char c : charsOnLine.toCharArray()) {
                 data.add(c);
             }
+
+            data.add('\n');
         }
 
         for (char c : data) {
